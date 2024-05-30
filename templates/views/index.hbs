@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather</title>
+  <link rel="stylesheet" href="../../css/styles.css" />
+  <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+  {{>header}}
+  <main>
+    <p class="intro">Find the weather by searching a place!</p>
+    <form action="">
+      <input type="text" placeholder="Location" autofocus>
+      <button>Search</button>
+    </form>
+
+    <div class="results">
+      <p id="messageOne"></p>
+      <p id="messageTwo"></p>
+    </div>
+  </main>
+  {{>footer}}
+</body>
+
+</html>
