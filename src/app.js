@@ -1,3 +1,4 @@
+require("dotenv").config();
 const path = require("path");
 const express = require("express");
 const hbs = require("hbs");
@@ -51,7 +52,7 @@ app.get("*", (req, res) => {
 	res.render("error", { title: "404", message: "Page not found.", name: "Samuel" });
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
 	console.log("Server is up on port 3000.");
 });
 
