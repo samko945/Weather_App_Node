@@ -1,3 +1,4 @@
+require("dotenv").config();
 const request = require("postman-request");
 
 // use encodeURIComponent() to be able to use escape characters that would otherwise mean something to the browser,  for example, "?" is reserved to mark the start of a query string, if we do not encode this then it can break the syntax

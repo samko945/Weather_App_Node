@@ -1,3 +1,4 @@
+require("dotenv").config();
 const request = require("postman-request");
 
 const forecast = (lat, lon, callback) => {
