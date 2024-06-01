@@ -69,16 +69,16 @@ nav * {
 	padding: 6px 18px;
 	margin: 0 0.3rem;
 	text-decoration: none;
-	color: rgb(255, 255, 255);
+	color: #1d60a9;
 	letter-spacing: 1px;
 	font-weight: bold;
-	background-color: #1d60a9;
+	background-color: white;
 	border-radius: 1rem;
 }
 
 nav *:hover {
-	color: #20208d;
-	background-color: white;
+	color: white;
+	background-color: #1d60a9;
 	/* border: 2px solid white; */
 }
 
