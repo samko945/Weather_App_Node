@@ -55,8 +55,8 @@ app.get("*", (req, res) => {
 	res.render("error", { title: "404", message: "Page not found.", name: "Samuel" });
 });
 
-app.listen(process.env.PORT || 3454, () => {
-	console.log("Server is up on port 3000.");
+app.listen(process.env.PORT || 3456, () => {
+	console.log(`Server is up on port ${process.env.PORT || 3456}.`);
 });
 
 module.exports = app;
