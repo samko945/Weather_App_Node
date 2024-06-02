@@ -114,3 +114,13 @@ button {
 button:hover {
 	background-color: #1d60a9;
 }
+
+.result:empty {
+	display: none;
+}
+
+.result {
+	background: white;
+	padding: 1rem;
+	border-radius: 1rem;
+}
